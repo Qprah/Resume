@@ -70,13 +70,16 @@ Before you begin, make sure you have the following:
 - **Format with Static Site Generator:** GitHub Pages, coupled with Jekyll, acts as a static site generator, providing a simple and efficient way to host and manage your resume website.
 - **Share/Host on Distributed Version Control System:** By hosting your resume on GitHub Pages, you're utilizing a distributed version control system, enabling collaboration and version history tracking.
 
+## DEMONSTRATION
+ ![GIF](my.gif)
+
 ## More Resources <a name="more-resources"></a>
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 
 ## Authors and Acknowledgements <a name="authors-and-acknowledgements"></a>
-This guide was authored by [Your Name] and adapted from the principles outlined in Andrew Etter's book, Modern Technical Writing.
+This guide was authored by Anmolpreet Singh and adapted from the principles outlined in Andrew Etter's book, Modern Technical Writing.
 
 ## FAQs <a name="faqs"></a>
 **Q: Why is Markdown better than a word processor?**
