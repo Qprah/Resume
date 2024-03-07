@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Anmolpreet Singh
+## Anmolpreet Singh
 *sin121@myumanitoba.ca* • *(204) 802-6726* • [LinkedIn](https://www.linkedin.com/in/anmolp-singh/)
 
 ## EDUCATION
