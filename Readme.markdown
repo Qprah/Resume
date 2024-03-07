@@ -1,3 +1,10 @@
+---
+layout: page
+title: Readme
+permalink: /readme/
+---
+
+
 # Hosting Your Resume on GitHub Pages: A Guide
 
 ## Table of Contents
