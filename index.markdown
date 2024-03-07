@@ -1,7 +1,5 @@
 ---
-layout: page
-title: Resume
-permalink: /Resume/
+
 ---
 
 # Anmolpreet Singhdd
