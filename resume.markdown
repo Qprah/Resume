@@ -1,4 +1,10 @@
-# Anmolpreet Singh
+---
+layout: page
+title: Resume
+permalink: /Resume/
+---
+
+# Anmolpreet Singhdd
 *sin121@myumanitoba.ca* • *(204) 802-6726* • [LinkedIn](https://www.linkedin.com/in/anmolpreet-singh/)
 
 ## EDUCATION
