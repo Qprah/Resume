@@ -1,7 +1,5 @@
 ---
-layout: page
-title: My Resume
-permalink: /My Resume/
+layout: home
 ---
 
 # Anmolpreet Singh
