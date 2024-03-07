@@ -1,4 +1,8 @@
-# Contacts
+---
+layout: home
+title: Contacts
+---
+
 • Email: sin121@myumanitoba.ca
 • Phone: *(204) 802-6726* 
 • [LinkedIn](https://www.linkedin.com/in/anmolp-singh/)
