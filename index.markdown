@@ -1,9 +1,6 @@
----
-layout: home
----
-
-## Anmolpreet Singh
-*sin121@myumanitoba.ca* • *(204) 802-6726* • [LinkedIn](https://www.linkedin.com/in/anmolp-singh/)
+•*sin121@myumanitoba.ca* 
+•*(204) 802-6726* 
+•[LinkedIn](https://www.linkedin.com/in/anmolp-singh/)
 
 ## EDUCATION
 ### Bachelor of Computer Science (Honours)
