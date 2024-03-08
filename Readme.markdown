@@ -23,24 +23,34 @@ permalink: /readme/
 8. [FAQs](#faqs)
 
 ## Introduction <a name="introduction"></a>
-Welcome to the guide on hosting your resume on GitHub Pages! In this README, we'll walk you through the steps required to create and host your resume online using GitHub Pages, adhering to the principles outlined in Andrew Etter's book, Modern Technical Writing.
+Welcome to the guide on hosting your resume on GitHub Pages using Jekyll! In this README, I'll walk you through the steps required to create and host your resume online using GitHub Pages, adhering to the principles outlined in Andrew Etter's book, *Modern Technical Writing.*
 
 ## Purpose <a name="purpose"></a>
 The purpose of this guide is to help you set up and host your resume on GitHub Pages while also introducing and demonstrating key principles of Modern Technical Writing as advocated by Etter.
 
 ## Prerequisites <a name="prerequisites"></a>
-Before you begin, make sure you have the following:
-- A GitHub account
-- Your resume formatted in Markdown
+
+Before diving into the process, let's ensure you have everything you need:
+
+- **GitHub account:** This is where your resume will be hosted using [GitHub Pages](https://pages.github.com/). If you don't have one, you can easily create an account for free on [GitHub's website](https://github.com/).
+
+- **Resume formatted in Markdown:** [Markdown](https://www.markdownguide.org/) is a lightweight markup language that allows you to format plain text documents with simple syntax. Having your resume in Markdown format will make it easy to edit and publish online.
+
+- **Markdown editor:** While you can use any text editor to write Markdown, a dedicated Markdown editor like [Typora](https://typora.io/) or [Visual Studio Code](https://code.visualstudio.com/) with Markdown extensions can provide syntax highlighting and other helpful features to streamline the editing process.
+
+- **Ruby installed:** Jekyll, the static site generator we'll be using, is built with Ruby. Make sure you have Ruby installed on your system to run Jekyll locally and build your site. You can download Ruby from the [official website](https://www.ruby-lang.org/en/downloads/).
+
+- **Jekyll for Static Site Generation:** [Jekyll](https://jekyllrb.com/) is a popular static site generator that simplifies the process of building websites. It will convert your Markdown resume into a static HTML website that can be hosted on GitHub Pages. You can install Jekyll via RubyGems by following the instructions on the [Jekyll installation page](https://jekyllrb.com/docs/installation/).
 
 ## Instructions <a name="instructions"></a>
 
 ### Step 1: Setting Up Your GitHub Repository <a name="step-1-setting-up-your-github-repository"></a>
 1. Log in to your GitHub account.
 2. Click on the "+" sign in the top right corner and select "New repository."
-3. Name your repository (e.g., "resume").
-4. Choose whether you want your repository to be public or private.
+3. Name your repository `*yourusername*.github.io`. 
+4. Choose your repository to be public.
 5. Click "Create repository."
+![Your username](username.png)
 
 ### Step 2: Creating Your Resume in Markdown <a name="step-2-creating-your-resume-in-markdown"></a>
 1. Open your favorite Markdown editor.
@@ -79,7 +89,7 @@ Before you begin, make sure you have the following:
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 
 ## Authors and Acknowledgements <a name="authors-and-acknowledgements"></a>
-This guide was authored by Anmolpreet Singh and adapted from the principles outlined in Andrew Etter's book, Modern Technical Writing.
+This guide was authored by `Anmolpreet Singh` and adapted from the principles outlined in Andrew Etter's book, Modern Technical Writing.
 
 ## FAQs <a name="faqs"></a>
 **Q: Why is Markdown better than a word processor?**
