@@ -120,7 +120,7 @@ ___
 
 ___
 ## **Demo**
- ![GIF](my.gif)
+ ![GIF](demo.gif)
 
 ___
 ## **More Resources** <a name="more-resources"></a>
