@@ -50,6 +50,7 @@ Before diving into the process, let's ensure you have everything you need:
 3. Name your repository `*yourusername*.github.io`. 
 4. Choose your repository to be public.
 5. Click "Create repository."
+
 ![Your username](username.png)
 
 ### Step 2: Creating Your Resume in Markdown <a name="step-2-creating-your-resume-in-markdown"></a>
