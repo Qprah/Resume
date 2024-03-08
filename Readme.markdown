@@ -83,7 +83,7 @@ ___
 
 ___
 ### Step 4: Create Your Markdown Resume <a name="step-4"></a>
-As mentioned by Etter in his book, Markdown is the “most widely used lightweight markup language in the world and has the cleanest syntax”, therefore, adhering to the principle of simlicity and accessibility.
+As mentioned by Etter in his book, Markdown is the “most widely used lightweight markup language in the world and has the cleanest syntax”, therefore, adhering to the principle of simplicity and accessibility.
 
 1. **Set Up Your Markdown Editor:**
    Choose a Markdown editor or use a text editor that supports Markdown formatting. Some popular options include Visual Studio Code, Atom, or Typora.
