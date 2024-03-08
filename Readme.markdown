@@ -1,100 +1,147 @@
 ---
 layout: page
-title: Readme
+title: README
 permalink: /readme/
 ---
 
 
-# Hosting Your Resume on GitHub Pages: A Guide
+# Hosting Your Resume on GitHub Pages: Inspired by Andrew Etter's  ***Modern Technical Writing***
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Purpose](#purpose)
+___
+## **Table of Contents**
+1. [Introduction and Purpose](#intro)
 3. [Prerequisites](#prerequisites)
 4. [Instructions](#instructions)
-    - [Step 1: Setting Up Your GitHub Repository](#step-1-setting-up-your-github-repository)
-    - [Step 2: Creating Your Resume in Markdown](#step-2-creating-your-resume-in-markdown)
-    - [Step 3: Setting Up Your GitHub Pages](#step-3-setting-up-your-github-pages)
-    - [Step 4: Uploading Your Resume](#step-4-uploading-your-resume)
-    - [Step 5: Customizing Your GitHub Pages](#step-5-customizing-your-github-pages)
-5. [Relating to Modern Technical Writing Principles](#relating-to-modern-technical-writing-principles)
+    - [Step 1: Establishing Your GitHub Repository](#step-1)
+    - [Step 2: Cloning Your Repository](#step-2)
+    - [Step 3: Jekyll: Installation and Configuration](#step-3)
+    - [Step 4: Create Your Markdown Resume](#step-4)
+    - [Step 5: Local Testing](#step-5)
+    - [Step 6: Publish Online](#step-6)
+5. [Relating to Modern Technical Writing Principles](#relating)
 6. [More Resources](#more-resources)
 7. [Authors and Acknowledgements](#authors-and-acknowledgements)
 8. [FAQs](#faqs)
 
-## Introduction <a name="introduction"></a>
-Welcome to the guide on hosting your resume on GitHub Pages using Jekyll! In this README, I'll walk you through the steps required to create and host your resume online using GitHub Pages, adhering to the principles outlined in Andrew Etter's book, *Modern Technical Writing.*
+___
+## **Introduction and Purpose** <a name="intro"></a>
+Welcome to the guide on hosting your resume on GitHub Pages using Jekyll! Here, I'll walk you through the process while incorporating the principles outlined in Andrew Etter's book, [*Modern Technical Writing*](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). GitHub Pages, coupled with [Jekyll](https://jekyllrb.com/), offers an excellent platform for showcasing your resume online. By following the steps outlined in this guide, you'll not only learn how to set up your resume on [GitHub Pages](https://pages.github.com/) but also gain insights into applying modern technical writing principles to create clear and concise documentation.
 
-## Purpose <a name="purpose"></a>
-The purpose of this guide is to help you set up and host your resume on GitHub Pages while also introducing and demonstrating key principles of Modern Technical Writing as advocated by Etter.
+___
+## **Prerequisites** <a name="prerequisites"></a>
 
-## Prerequisites <a name="prerequisites"></a>
+1. **A GitHub account:** Your resume will be hosted on GitHub Pages. Sign up for a free account on [GitHub](https://github.com/).
+2. **Resume in Markdown:** Convert your resume to [Markdown](https://www.markdownguide.org/) for easy editing and publishing.
+3. **Markdown editor:** Use Typora or Visual Studio Code with Markdown extensions for efficient editing.
+4. **Ruby installed:** Jekyll, our static site generator, requires Ruby. Download Ruby from the [official website](https://www.ruby-lang.org/en/downloads/).
+5. **Jekyll for Static Site Generation:** Install Jekyll via RubyGems. Follow the instructions on the [Jekyll installation page](https://jekyllrb.com/docs/installation/).
 
-Before diving into the process, let's ensure you have everything you need:
+___
+## **Instructions** <a name="instructions"></a>
 
-- **GitHub account:** This is where your resume will be hosted using [GitHub Pages](https://pages.github.com/). If you don't have one, you can easily create an account for free on [GitHub's website](https://github.com/).
+### Step 1: Establishing Your GitHub Repository <a name="step-1"></a>
 
-- **Resume formatted in Markdown:** [Markdown](https://www.markdownguide.org/) is a lightweight markup language that allows you to format plain text documents with simple syntax. Having your resume in Markdown format will make it easy to edit and publish online.
+1. **Access GitHub:** Begin by logging in to your [GitHub](https://github.com/login) account.
 
-- **Markdown editor:** While you can use any text editor to write Markdown, a dedicated Markdown editor like [Typora](https://typora.io/) or [Visual Studio Code](https://code.visualstudio.com/) with Markdown extensions can provide syntax highlighting and other helpful features to streamline the editing process.
+1. **Create a New Repository:** Click on the "+" sign in the top right corner and select "New repository."
 
-- **Ruby installed:** Jekyll, the static site generator we'll be using, is built with Ruby. Make sure you have Ruby installed on your system to run Jekyll locally and build your site. You can download Ruby from the [official website](https://www.ruby-lang.org/en/downloads/).
+1. **Name Your Repository:** Choose a name in the format `yourusername.github.io`, ensuring to replace "yourusername" with your actual GitHub username.
 
-- **Jekyll for Static Site Generation:** [Jekyll](https://jekyllrb.com/) is a popular static site generator that simplifies the process of building websites. It will convert your Markdown resume into a static HTML website that can be hosted on GitHub Pages. You can install Jekyll via RubyGems by following the instructions on the [Jekyll installation page](https://jekyllrb.com/docs/installation/).
+1. **Set Repository Visibility:** Ensure your new repository is set to public to allow others to view it.
 
-## Instructions <a name="instructions"></a>
+1. **Finalize Repository Creation:** Click "Create repository" to complete the setup.
 
-### Step 1: Setting Up Your GitHub Repository <a name="step-1-setting-up-your-github-repository"></a>
-1. Log in to your GitHub account.
-2. Click on the "+" sign in the top right corner and select "New repository."
-3. Name your repository `*yourusername*.github.io`. 
-4. Choose your repository to be public.
-5. Click "Create repository."
+___
+### Step 2: Cloning Your Repository <a name="step-2"></a>
+**Handling a Remote Repository**: Consider utilizing web-based interfaces such as Atlassian Bitbucket or GitHub for managing remote repositories. According to Etter, tools like Atlassian [SourceTree](https://www.sourcetreeapp.com/) and [GitHub Desktop](https://desktop.github.com/) provide user-friendly interfaces for repository management.
 
-![Your username](username.png)
+#### **Using Github Desktop**
+1. **Access Your Repository:** Once your repository is created, navigate to its page on GitHub.
 
-### Step 2: Creating Your Resume in Markdown <a name="step-2-creating-your-resume-in-markdown"></a>
-1. Open your favorite Markdown editor.
-2. Create a new Markdown file and name it "resume.md."
-3. Write or copy and paste your resume content into the Markdown file.
-4. Format your resume using Markdown syntax.
+1. **Clone Repository:** Click on the green "Code" button and select "Open with GitHub Desktop."
 
-### Step 3: Setting Up Your GitHub Pages <a name="step-3-setting-up-your-github-pages"></a>
-1. Go to your repository settings.
-2. Scroll down to the "GitHub Pages" section.
-3. Under "Source," select the branch where your resume Markdown file is located (usually "main" or "master").
-4. Choose a theme for your GitHub Pages site (optional).
-5. Click "Save."
+1. **Open GitHub Desktop:** If you don't have GitHub Desktop installed, download and install it from [here](https://desktop.github.com/).
 
-### Step 4: Uploading Your Resume <a name="step-4-uploading-your-resume"></a>
-1. Go back to your repository.
-2. Upload your resume Markdown file if you haven't already done so.
-3. Commit your changes.
+1. **Clone Repository:** In GitHub Desktop, you'll see your repository listed under "Recent repositories." Click on it to open.
 
-### Step 5: Customizing Your GitHub Pages <a name="step-5-customizing-your-github-pages"></a>
-1. Navigate to your GitHub Pages site (usually `username.github.io/repository-name`).
-2. Customize your site by editing the `_config.yml` file or directly modifying your Markdown files.
-3. Commit your changes.
+1. **Choose Local Path:** Choose the local path where you want to clone your repository by clicking "Choose...".
 
-## Relating to Modern Technical Writing Principles <a name="relating-to-modern-technical-writing-principles"></a>
+1. **Clone Repository:** Click the "Clone" button to clone the repository to your local machine.
+
+
+By following these steps, you'll successfully clone your GitHub repository to your local machine, enabling you to work on your project locally and synchronize changes with the remote repository on GitHub.
+
+___
+
+### Step 3: Jekyll: Installation and Configuration <a name="step-3"></a>
+
+1. **Deploying Jekyll:** If Jekyll hasn’t been set up on your system, refer to the [official installation guide](https://jekyllrb.com/docs/installation/) provided for Windows users.
+   
+2. **Initialization of Jekyll within Your Repository:** Access your cloned repository directory in the Windows Command Prompt terminal and execute the command `jekyll new "Your Desired Folder Name"`.
+   
+3. **Config Setup:** Utilize your preferred text editor to open the `_config.yml` file. Within this file, you can customize various settings such as the site’s title, authorship details, description, and theme.
+
+___
+### Step 4: Create Your Markdown Resume <a name="step-4"></a>
+As mentioned by Etter in his book, Markdown is the “most widely used lightweight markup language in the world and has the cleanest syntax”, therefore, adhering to the principle of simlicity and accessibility.
+
+1. **Set Up Your Markdown Editor:**
+   Choose a Markdown editor or use a text editor that supports Markdown formatting. Some popular options include Visual Studio Code, Atom, or Typora.
+
+2. **Create a New Markdown File:**
+   Open your Markdown editor and create a new file with a `.md` extension. Name it something like `resume.md`.
+
+**Formatting Tips:**
+- Etter suggests utilizing [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to enhance readability. Use headings for section titles, bullet points for lists, and links to showcase your professional work or profiles.
+
+___
+### Step 5: Local Testing <a name="step-5"></a>
+
+1. **Launching Local Server:** Execute `bundle exec jekyll serve` in the Windows Command Prompt terminal within your project root directory. 
+- This command hosts your site locally at `[http://localhost:4000]`. 
+- `Ctrl + Left Mouse Click` on the provided URL to preview your resume.
+
+___
+### Step 6: Publish Online <a name="step-6"></a>
+
+1. **Commit Changes:** Open Git Desktop, select your repository, stage your changes, add a brief commit message, and then commit.
+
+1. **Push to GitHub:** After committing, push your changes to your GitHub repository by clicking the "Push origin" button.
+
+1. **View Online:** Once pushed, visit `[https://yourusername.github.io]` in a web browser to see your updated resume live.
+
+___
+## **Relating to Modern Technical Writing Principles** <a name="relating"></a>
 - **Use of Lightweight Markup Language:** Markdown is a lightweight markup language that allows for easy formatting of text without the complexities of HTML.
+
 - **Format with Static Site Generator:** GitHub Pages, coupled with Jekyll, acts as a static site generator, providing a simple and efficient way to host and manage your resume website.
+
 - **Share/Host on Distributed Version Control System:** By hosting your resume on GitHub Pages, you're utilizing a distributed version control system, enabling collaboration and version history tracking.
 
-## DEMONSTRATION
+___
+## **Demo**
  ![GIF](my.gif)
 
-## More Resources <a name="more-resources"></a>
+___
+## **More Resources** <a name="more-resources"></a>
 - [Markdown Tutorial](https://www.markdowntutorial.com/)
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 
-## Authors and Acknowledgements <a name="authors-and-acknowledgements"></a>
-This guide was authored by `Anmolpreet Singh` and adapted from the principles outlined in Andrew Etter's book, Modern Technical Writing.
+___
+## **Authors and Acknowledgements** <a name="authors-and-acknowledgements"></a>
+This guide was authored by `Anmolpreet Singh` , edited by `Zander Apalit, Seyi Asoga` and adapted from the principles outlined in Andrew Etter's book, Modern Technical Writing.
 
-## FAQs <a name="faqs"></a>
+___
+## **FAQs** <a name="faqs"></a>
 **Q: Why is Markdown better than a word processor?**
+
 A: Markdown is lightweight, easy to learn, and platform-independent, making it ideal for creating and formatting text documents without the need for complex software.
 
-**Q: Why is my resume not showing up on GitHub Pages?**
-A: Ensure that your resume Markdown file is properly formatted and located in the correct branch specified in your GitHub Pages settings. Additionally, check for any typos or errors in your Markdown syntax that may be causing rendering issues.
+**Q: Can I customize the design of my resume on GitHub Pages?**
+
+A: Yes, GitHub Pages allows for customization using Jekyll themes and HTML/CSS modifications. Explore available themes or create your own to personalize the design of your resume according to your preferences.
+
+**Q: Is it possible to include interactive elements like forms or JavaScript on my resume hosted on GitHub Pages?**
+
+A: GitHub Pages has limitations on dynamic content and JavaScript execution for security reasons. While you can include basic HTML elements and forms, complex interactive features may not work as expected. Consider alternative platforms or hosting solutions if you require advanced interactivity.

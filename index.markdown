@@ -7,6 +7,7 @@ title:  " "
 - Phone: (204) 802-6726 
 - [LinkedIn](https://www.linkedin.com/in/anmolp-singh/)
 
+___
 ## **EDUCATION**
 ### Bachelor of Computer Science (Honours)
 *University of Manitoba* | Sept 2021 - Present
@@ -17,6 +18,7 @@ title:  " "
 - GPA 4.0
 - Dean's Honour Roll (Fall 2020, Winter 2021, Summer 2021)
 
+___
 ## **TECHNICAL SKILLS**
 ### Programming Languages:
 Java, C#, C, C++, Javascript, React, R, Python, SQL, MongoDB, Neo4j. 
@@ -27,6 +29,7 @@ Windows, Linux (Mint), MacOS
 ### Others:
 Git/Github, OpenCV, MVC, Gradle, Jekyll
 
+___
 ## **ACADEMIC PROGRAMMING EXPERIENCE**
 ### Introduction to Computer Systems
 *Summer 2023*
@@ -55,12 +58,14 @@ Git/Github, OpenCV, MVC, Gradle, Jekyll
 *Winter 2021*
 - Implemented a graphical version of Sudoku using Processing.
 
+___
 ## **EXTRACURRICULAR ACTIVITIES**
 ### UMSATS (Space Applications and Technology Society)
 *Jan 2022 - Present*
 - Avionics Team Member.
 - Engaged in aerospace projects to develop practical skills through collaborative experiences.
 
+___
 ## **WORK EXPERIENCE**
 ### University Of Manitoba
 *Winnipeg, Manitoba* | Jan 2024 - Apr 2024
