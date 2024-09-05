@@ -23,7 +23,7 @@ email: sin121@myumanitoba.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Deploying Your Resume with Jekyll on GitHub Pages: Windows Setup Instructions
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://qprah.github.io/Resume/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Qprah
 
 # Build settings
